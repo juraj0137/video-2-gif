@@ -1,4 +1,5 @@
 # Video 2 gif
+Works on Fedora 21 and later.
 
 ## Installation
 
