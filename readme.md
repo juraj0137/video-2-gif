@@ -1,5 +1,18 @@
-#!/bin/bash
+# Video 2 gif
 
-su -c 'dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm ImageMagick ImageMagick-devel'
+## Installation
 
-chmod +x gifMaker.sh
+Clone this repo. 
+`git clone https://github.com/juraj0137/video-2-gif.git video-2-gif`
+
+Go to cloned folder
+`cd video-2-gif`
+
+Remove git folder, it is not necessary here
+`rm -rf .git`
+
+Make `install.sh` executable 
+`sudo chmod +x ./install.sh`
+
+Install dependecies
+`./install.sh`
